@@ -3,15 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "my-website/node_modules/.bin/docusaurus",
-    "start": "my-website/node_modules/.bin/docusaurus start",
-    "build": "my-website/node_modules/.bin/docusaurus build",
-    "swizzle": "my-website/node_modules/.bin/docusaurus swizzle",
-    "deploy": "my-website/node_modules/.bin/docusaurus deploy",
-    "clear": "my-website/node_modules/.bin/docusaurus clear",
-    "serve": "my-website/node_modules/.bin/docusaurus serve",
-    "write-translations": "my-website/node_modules/.bin/docusaurus write-translations",
-    "write-heading-ids": "my-website/node_modules/.bin/docusaurus write-heading-ids"
+    "docusaurus": "node_modules/.bin/docusaurus",
+    "start": "node_modules/.bin/docusaurus start",
+    "build": "node_modules/.bin/docusaurus build",
+    "swizzle": "node_modules/.bin/docusaurus swizzle",
+    "deploy": "node_modules/.bin/docusaurus deploy",
+    "clear": "node_modules/.bin/docusaurus clear",
+    "serve": "node_modules/.bin/docusaurus serve",
+    "write-translations": "node_modules/.bin/docusaurus write-translations",
+    "write-heading-ids": "node_modules/.bin/docusaurus write-heading-ids"
   },
   "dependencies": {
     "@docusaurus/core": "2.1.0",
